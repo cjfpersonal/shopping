@@ -1,0 +1,57 @@
+/**样式重置**/
+@charset "utf-8";
+/* CSS Document */
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,button,textarea,p,blockquote,th,td { margin:0; padding:0; }
+body { background:#fff; color:#555; font-size:14px; font-family: Verdana, Arial, Helvetica, sans-serif; }
+td,th,caption { font-size:14px; }
+h1, h2, h3, h4, h5, h6 { font-weight:normal; font-size:100%; }
+address, caption, cite, code, dfn, em, strong, th, var { font-style:normal; font-weight:normal;}
+a { color:#656565; text-decoration:none; }
+a:hover { text-decoration:underline; }
+img { border:none; }
+ol,ul,li { list-style:none; }
+input, textarea, select, button { font:14px Verdana,Helvetica,Arial,sans-serif;border:none; background-color: none;}
+
+.fl{
+	float: left;
+}
+.fr{
+	float: right;
+}
+.clearfix{
+	clear:both;
+	overflow:hidden;}
+.hide{
+	visibility: hidden;
+}
+
+/**样式重置**/
+.poster-main{
+	width: 800px;
+	height: 270px;
+	position: relative;
+}
+.poster-main .list{
+	width: 800px;
+	height: 270px;
+}
+.prev-btn{
+	position: absolute;
+	width: 100px;
+	height: 270px;
+	top: 0;
+	left: 0;
+}
+.next-btn{
+	position: absolute;
+	width: 100px;
+	height: 270px;
+	top: 0;
+	right: 0;
+}
+.list .item{
+	position: absolute;
+	top: 0;
+	left: 0;
+	
+}
